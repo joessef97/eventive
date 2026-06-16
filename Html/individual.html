@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Ticket Purchase</title>
+	<link rel="stylesheet" href="../Style/style.css">
+       <meta charset="utf-8">
+    <style>
+        input{
+               border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    margin: 1rem 0;
+    padding: 4px;
+    font-size: 1rem;
+    outline: none;
+}
+        tr{
+            border-bottom: ridge;
+            border-bottom-width: 15px;
+        }
+        
+		table {
+			width: 90%;
+			border-collapse: collapse;
+            margin: auto;
+            background-color: silver;
+            margin-top: 60px;
+		}
+		th, td {
+			padding: 15px;
+			text-align: left;
+		}
+		th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+		}
+        td {
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+     <nav>
+        <ul style="top: 0;">
+            <li><a href="../index.html"><img src="../img/logo.png.png" alt="Logo" width="125" height="21" style=text-align:center;></a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Html/sports.html"  class="active">Sports</a></li>
+            <li><a href="../Html/Entertainment.html">Entertainment</a></li>
+            <li><a href="../Html/Other%20events.html">Other Events</a></li>
+            <li><a href="../Html/Event%20calender.html">Event Calendar</a></li>
+            <li><a href="../Html/about%20us.html">About us</a></li>
+            <li><a href="../Html/contact%20us.html">Contact us</a></li>
+        </ul>
+    </nav>
+	<table>
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Match</th>
+      <th>Location</th>
+        <th>Date</th>
+      <th>Time</th>
+      <th>Sport</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Karim Hossam vs Karim Maamoun</td>
+      <td>Smash Sporting Club</td>
+        <td>27/04/2023</td>
+        <td>1:00 pm</td>
+      <td>Tennis</td>
+      <td>
+        <input class="quantity" type="number" min="0" max="4" value="0">
+      </td>
+      <td class="price">$0</td>
+    </tr>
+      <tr>
+      <td>2</td>
+      <td>Ali Farag vs Mohamed El Shorbagy</td>
+      <td>Pyramids</td>
+           <td>1/05/2023</td>
+          <td>8:00 pm</td>
+      <td>Squash</td>
+      <td>
+        <input class="quantity" type="number" min="0" max="4" value="0">
+      </td>
+      <td class="price">$0</td>
+    </tr>
+      <tr>
+      <td>3</td>
+      <td>Nour El Sherbini vs Nouran Gohar</td>
+      <td>Pyramids</td>
+           <td>02/05/2023</td>
+          <td>8:00 pm</td>
+      <td>Squash (W)</td>
+      <td>
+        <input class="quantity" type="number" min="0" max="4" value="0">
+      </td>
+      <td class="price">$0</td>
+    </tr> 
+      <tr>
+      <td>4</td>
+      <td>Mohamed Abdelmawgoud vs Abdelrahman Ahmed</td>
+      <td>Cairo International Studium</td>
+           <td>15/05/2023</td>
+          <td>3:00 pm</td>
+      <td>Judo</td>
+      <td>
+        <input class="quantity" type="number" min="0" max="4" value="0">
+      </td>
+      <td class="price">$0</td>
+    </tr>
+   
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="5"></td>
+      <th>Total:</th>
+      <th id="total-price"></th>
+      <td>  <a href="../Html/cart.html" id="checkout">Check Out</a> </td>
+    </tr>
+  </tfoot>
+</table>
+	
+    
+<script src="../javascript/scriptIndividual.js"></script>
+    
+     <footer style="position:inherit; margin-bottom: -20px">
+   <div class="copyright">
+  <div class="footer-menu">
+
+  <a href="../index.html">Home</a>
+  <a href="">F.A.Q</a>
+  <a href="">Cookies Policy</a>
+  <a href="">Terms Of Service</a>
+  <a href="../Html/contact%20us.html">Support</a>
+
+  </div>
+   <p>Eventive &copy; 2023. All rights reseved</p>
+</div>
+  </footer>
+    </body></html>
